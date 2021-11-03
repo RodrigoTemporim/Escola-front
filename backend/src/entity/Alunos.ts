@@ -1,5 +1,5 @@
 import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn} from 'typeorm';
-import { Moment } from 'moment';
+
 
 @Entity()
 export class Alunos{

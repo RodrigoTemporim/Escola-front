@@ -1,7 +1,7 @@
 import { getRepository } from "typeorm";
 import { Alunos } from "../entity/Alunos";
 import { Request, Response } from "express";
-import { takeLast } from "rxjs";
+
 
 // retorna todos os alunos cadastrados
 export const getAlunos = async(request: Request, response: Response) => {
