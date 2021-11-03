@@ -12,4 +12,6 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(routes)
 
-app.listen(3102)
+app.listen(process.env.PORT || 3102, () => {
+    console.log('Servidor em Execução!');
+})
